@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "email": "ashab@gmail.com",
+      "password": "$2a$10$ndbb9.0H2TfcavYHg3JhGe24vlv7ipjvV66igTflmk1sx9nEa2HcS",
+      "name": "Ashab Uddin",
+      "avatar": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/294351584_1716295508734713_942233674117623935_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=YiNrf_kB2iQAX9AlD0n&_nc_ht=scontent.fcgp7-1.fna&oh=00_AT_jhmY3tGFM3CI6n90BBcf780VKhbYoM6ntuBkK5ocZsg&oe=6336FFDF",
+      "id": 1
+    },
+    {
+      "email": "mokit@gmail.com",
+      "password": "$2a$10$ocR2EGHjoHEWGjaTaAXQiO3Q27SDcEwouuSlD1T3G5mF3ZDNY.mQK",
+      "name": "Mokit Ahmed",
+      "avatar": "https://i.pinimg.com/222x/7d/1a/3f/7d1a3f77eee9f34782c6f88e97a6c888.jpg",
+      "id": 2
+    },
+    {
+      "email": "saed@gmail.com",
+      "password": "$2a$10$2tTT0bC.ctUzz/BHG52Qau2lUQZOgQmzRfOeKopFOL23z5Co7V.MG",
+      "name": "Saed Mukkarabin",
+      "avatar": "",
+      "id": 3
+    },
+    {
+      "email": "zahir@gmail.com",
+      "password": "$2a$10$dKld9IGMAbgvizdsoRt7L.KL5Padu0FEFyX6NT6M82fxLZHuri6/O",
+      "name": "Zahir Uddin",
+      "avatar": "",
+      "id": 4
+    }
+  ],
+  "teams": [
+    {
+      "teamName": "publishing software",
+      "title": " letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page",
+      "color": "green",
+      "created_at": 1664249731127,
+      "creatorId": 1,
+      "id": 11
+    },
+    {
+      "teamName": "Tech Team",
+      "title": "Network managment,Server etc",
+      "color": "red",
+      "created_at": 1664281076243,
+      "creatorId": 1,
+      "id": 21
+    },
+    {
+      "teamName": "Design",
+      "title": "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!",
+      "color": "yellow",
+      "created_at": 1664281152654,
+      "creatorId": 1,
+      "id": 22
+    },
+    {
+      "teamName": "Copy writing",
+      "title": "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!",
+      "color": "yellow",
+      "created_at": 1664281218059,
+      "creatorId": 1,
+      "id": 23
+    },
+    {
+      "teamName": "Dev",
+      "title": "Web development",
+      "color": "green",
+      "created_at": 1664283731199,
+      "creatorId": 3,
+      "id": 24
+    },
+    {
+      "teamName": "Security",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupta",
+      "color": "red",
+      "created_at": 1664283762772,
+      "creatorId": 3,
+      "id": 25
+    },
+    {
+      "teamName": "Tech",
+      "title": "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!",
+      "color": "red",
+      "created_at": 1664286481853,
+      "creatorId": 3,
+      "id": 26
+    },
+    {
+      "teamName": "Design",
+      "title": "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!",
+      "color": "yellow",
+      "created_at": 1664286585494,
+      "creatorId": 3,
+      "id": 27
+    }
+  ],
+  "members": [
+    {
+      "teamName": "publishing software",
+      "teamId": 11,
+      "user": {
+        "id": 1,
+        "name": "Ashab Uddin"
+      },
+      "id": 7
+    },
+    {
+      "teamName": "Tech Team",
+      "teamId": 21,
+      "user": {
+        "id": 1,
+        "name": "Ashab Uddin"
+      },
+      "id": 16
+    },
+    {
+      "teamName": "Design",
+      "teamId": 22,
+      "user": {
+        "id": 1,
+        "name": "Ashab Uddin"
+      },
+      "id": 17
+    },
+    {
+      "teamId": 22,
+      "user": {
+        "id": 2,
+        "name": "Mokit Ahmed"
+      },
+      "id": 18
+    },
+    {
+      "teamName": "Dev",
+      "teamId": 24,
+      "user": {
+        "id": 3,
+        "name": "Saed Mukkarabin"
+      },
+      "id": 19
+    },
+    {
+      "teamId": 25,
+      "user": {
+        "id": 3,
+        "name": "Saed Mukkarabin"
+      },
+      "id": 20
+    },
+    {
+      "teamName": "Tech",
+      "teamId": 26,
+      "user": {
+        "id": 3,
+        "name": "Saed Mukkarabin"
+      },
+      "id": 21
+    }
+  ],
+  "projects": [
+    {
+      "title": "Language Translation",
+      "teamId": 23,
+      "teamName": "Copy writing",
+      "stage": "backlog",
+      "created_at": 1664281340719,
+      "creator": {
+        "email": "ashab@gmail.com",
+        "name": "Ashab Uddin",
+        "avatar": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/294351584_1716295508734713_942233674117623935_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=YiNrf_kB2iQAX9AlD0n&_nc_ht=scontent.fcgp7-1.fna&oh=00_AT_jhmY3tGFM3CI6n90BBcf780VKhbYoM6ntuBkK5ocZsg&oe=6336FFDF",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "title": "Wadding Project",
+      "teamId": 22,
+      "teamName": "Design",
+      "stage": "doing",
+      "created_at": 1664281374011,
+      "creator": {
+        "email": "ashab@gmail.com",
+        "name": "Ashab Uddin",
+        "avatar": "https://scontent.fcgp7-1.fna.fbcdn.net/v/t39.30808-6/294351584_1716295508734713_942233674117623935_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=YiNrf_kB2iQAX9AlD0n&_nc_ht=scontent.fcgp7-1.fna&oh=00_AT_jhmY3tGFM3CI6n90BBcf780VKhbYoM6ntuBkK5ocZsg&oe=6336FFDF",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "title": "web development",
+      "teamId": 24,
+      "teamName": "Dev",
+      "stage": "backlog",
+      "created_at": 1664286168428,
+      "creator": {
+        "email": "saed@gmail.com",
+        "name": "Saed Mukkarabin",
+        "avatar": "",
+        "id": 3
+      },
+      "id": 3
+    },
+    {
+      "title": "Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!",
+      "teamId": 25,
+      "teamName": "Security",
+      "stage": "backlog",
+      "created_at": 1664286621689,
+      "creator": {
+        "email": "saed@gmail.com",
+        "name": "Saed Mukkarabin",
+        "avatar": "",
+        "id": 3
+      },
+      "id": 4
+    }
+  ]
+}
